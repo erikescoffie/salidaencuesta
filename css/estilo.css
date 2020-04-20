@@ -1,0 +1,77 @@
+.estilo {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: #021D49;
+}
+
+.titulo {
+  width: 40%;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.titulo h3 {
+  color: white;
+}
+
+.logo {
+  width: 60%;
+  text-align: right;
+}
+
+.logo img {
+  height: 100%;
+  padding: 20px;
+}
+
+#contenedor {
+  width: 100%;
+  padding: 10px;
+}
+
+.secciones {
+  padding: 15px 0px;
+}
+
+#datos {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+  .chart-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .chart-container article {
+    width: 32%;
+  }
+
+  .pregunta {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .chart-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .chart-container article {
+    width: 95%;
+  }
+
+  .pregunta {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+}
